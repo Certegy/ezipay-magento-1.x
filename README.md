@@ -17,8 +17,8 @@ To deploy the plugin, clone this repo, and copy the following plugin files and f
 Once copied - you should be able to see the Certegy Ezi-Pay plugin loaded in magento (note this may require a cache flush/site reload)
 
 Please find more details from 
-http://docs.ezipay.com.au/platforms/magento_1/  (for Australia)
-http://docs.ezipay.co.nz/platforms/magento_1/  (for New Zealand)
+http://docs.certegyezipay.com.au/platforms/magento_1/  (for Australia)
+http://docs.certegyezipay.co.nz/platforms/magento_1/  (for New Zealand)
 
 ## Varnish cache exclusions
 
