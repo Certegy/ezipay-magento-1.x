@@ -18,7 +18,7 @@ deploy:
     release: v$(APPVEYOR_REPO_TAG_NAME)
     description: $(APPVEYOR_REPO_COMMIT_MESSAGE)
     auth_token:
-      secure: vsGwkhjaQdCumvOvqTywfnwRMULrvO50y6GwVNF2FHe04dYKbEXyfhO6OMdUsaED
+      secure: TnMOGMLkrqvmCiI6dJvsHM2SeTQ3Ik7fwa07ElbuAzSqX7au2eY6KF87nPtb7OOL
     artifact: /.*\.zip/
     draft: false
     prerelease: false
