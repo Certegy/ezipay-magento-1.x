@@ -326,8 +326,8 @@ class Ezipay_Ezipayments_PaymentController extends Mage_Core_Controller_Front_Ac
 
         $order = $this->getLastRealOrder();
 
-        if($order->getTotalDue() < 20) {
-            Mage::getSingleton('checkout/session')->addError("Certegy Ezi-Pay doesn't support purchases less than $20.");
+        if($order->getTotalDue() < 100) {
+            Mage::getSingleton('checkout/session')->addError("Certegy Ezi-Pay doesn't support purchases less than $100.");
             return false;
         }
 
