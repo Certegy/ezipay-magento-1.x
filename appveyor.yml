@@ -30,5 +30,5 @@ notifications:
       - devadmin@certegy.com.au
   - provider: Slack
     auth_token:
-      secure: yXpzER0fyDmh7wYR6zrrES+wGzz5010OpUvpb5UPMsQZO12Ag3TaeOjSsZ0tDQQ4WaNoNngsPOPiaYWmsfg3fhJrSyPy240FqSwDdhSPqC0=
+      secure: QWE2vFI2LUFAu+jx4lXHihtpPFoVi+ru0mHSC/BvsyXYcRvgh7Tc8zEEaKkj1n5V09+Ti39CvVooS3Y8VTn7PYC6lef2OrQQ+ivqkJL+lZI=
     channel: '#alerts'
